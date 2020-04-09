@@ -22,14 +22,14 @@ const char* host = "api.thingspeak.com";
 const int httpPortRead = 80;
 // "XXXXXXXXXXXXXXX" represents your 16 digit API Key generated from Thingspeak i.e ThingHTTP
 //India ContryData of COVID19
-const char* url = "/apps/thinghttp/send_request?api_key=5DJOPQOJLC4ABMNV"; //cases
-const char* url2 = "/apps/thinghttp/send_request?api_key=Y2PXJ91VE87FGR21"; // deaths
-const char* url3 = "/apps/thinghttp/send_request?api_key=PW4FQ5BRR81EJUFP"; //recovered
+const char* url = "/apps/thinghttp/send_request?api_key=XXXXXXXXXXXXXXX"; //cases
+const char* url2 = "/apps/thinghttp/send_request?api_key=XXXXXXXXXXXXXXX"; // deaths
+const char* url3 = "/apps/thinghttp/send_request?api_key=XXXXXXXXXXXXXXX"; //recovered
 
 //Karnataka State data of COVID19
-const char* url4 = "/apps/thinghttp/send_request?api_key=YM6ITOP96WUTFEQQ"; //cases
-const char* url5 = "/apps/thinghttp/send_request?api_key=T95BB7I1J3MYFL5W"; // deaths
-const char* url6 = "/apps/thinghttp/send_request?api_key=TWBUHH1NR11HDQ7I"; //recovered
+const char* url4 = "/apps/thinghttp/send_request?api_key=XXXXXXXXXXXXXXX"; //cases
+const char* url5 = "/apps/thinghttp/send_request?api_key=xXXXXXXXXXXXXXXX"; // deaths
+const char* url6 = "/apps/thinghttp/send_request?api_key=XXXXXXXXXXXXXXX"; //recovered
 
 HTTPClient http;
 
